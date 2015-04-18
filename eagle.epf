@@ -369,7 +369,7 @@ UsedLibrary="/opt/eagle-7.2.0/lbr/zilog.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="46 110 1335 992"
+Loc="502 214 1791 1096"
 State=2
 Number=0
 
