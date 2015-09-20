@@ -1628,17 +1628,17 @@ Production Part - 8199
 </class>
 </classes>
 <parts>
-<part name="IC2" library="SparkFun-AnalogIC" deviceset="NE555" device="D" value="TLC555"/>
+<part name="IC1" library="SparkFun-AnalogIC" deviceset="NE555" device="D" value="TLC555"/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device="" value=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device="" value=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device="" value=""/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100n"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100n"/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100n"/>
-<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="2,2k"/>
-<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4,7k"/>
-<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="27k"/>
-<part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="12V" value="BCX84-C12"/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100n"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100n"/>
+<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="2,2k"/>
+<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4,7k"/>
+<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="27k"/>
+<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="12V" value="BCX84-C12"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device="" value=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device="" value=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="12V" device=""/>
@@ -1658,17 +1658,17 @@ Production Part - 8199
 <plain>
 </plain>
 <instances>
-<instance part="IC2" gate="G$1" x="71.12" y="104.14"/>
+<instance part="IC1" gate="G$1" x="71.12" y="104.14"/>
 <instance part="GND6" gate="1" x="55.88" y="83.82"/>
 <instance part="GND8" gate="1" x="83.82" y="83.82"/>
 <instance part="GND9" gate="1" x="88.9" y="83.82"/>
 <instance part="C3" gate="G$1" x="55.88" y="88.9"/>
-<instance part="C4" gate="G$1" x="88.9" y="88.9"/>
-<instance part="C6" gate="G$1" x="96.52" y="88.9"/>
-<instance part="R4" gate="G$1" x="45.72" y="149.86"/>
-<instance part="R5" gate="G$1" x="45.72" y="111.76" rot="R90"/>
-<instance part="R6" gate="G$1" x="71.12" y="121.92"/>
-<instance part="D2" gate="G$1" x="55.88" y="142.24" smashed="yes" rot="R90">
+<instance part="C2" gate="G$1" x="88.9" y="88.9"/>
+<instance part="C1" gate="G$1" x="96.52" y="88.9"/>
+<instance part="R1" gate="G$1" x="45.72" y="149.86"/>
+<instance part="R2" gate="G$1" x="45.72" y="111.76" rot="R90"/>
+<instance part="R3" gate="G$1" x="71.12" y="121.92"/>
+<instance part="D1" gate="G$1" x="55.88" y="142.24" smashed="yes" rot="R90">
 <attribute name="VALUE" x="59.309" y="135.382" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND10" gate="1" x="55.88" y="132.08"/>
@@ -1690,7 +1690,7 @@ Production Part - 8199
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -1698,17 +1698,17 @@ Production Part - 8199
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="GND"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="81.28" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="96.52" x2="83.82" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="55.88" y1="139.7" x2="55.88" y2="134.62" width="0.1524" layer="91"/>
 </segment>
@@ -1721,15 +1721,15 @@ Production Part - 8199
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="TRE"/>
+<pinref part="IC1" gate="G$1" pin="TRE"/>
 <wire x1="60.96" y1="111.76" x2="55.88" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="111.76" x2="55.88" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="TRI"/>
+<pinref part="IC1" gate="G$1" pin="TRI"/>
 <wire x1="55.88" y1="96.52" x2="60.96" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="96.52" x2="55.88" y2="93.98" width="0.1524" layer="91"/>
 <junction x="55.88" y="96.52"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="121.92" x2="55.88" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="121.92" x2="55.88" y2="111.76" width="0.1524" layer="91"/>
 <junction x="55.88" y="111.76"/>
@@ -1737,26 +1737,26 @@ Production Part - 8199
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="CON"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="G$1" pin="CON"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="99.06" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="99.06" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="121.92" x2="88.9" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="121.92" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="OUT"/>
+<pinref part="IC1" gate="G$1" pin="OUT"/>
 <wire x1="88.9" y1="104.14" x2="81.28" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="DIS"/>
+<pinref part="IC1" gate="G$1" pin="DIS"/>
 <wire x1="60.96" y1="104.14" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="104.14" x2="45.72" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="104.14" x2="40.64" y2="104.14" width="0.1524" layer="91"/>
@@ -1767,28 +1767,28 @@ Production Part - 8199
 <segment>
 <pinref part="SUPPLY3" gate="G$1" pin="12V"/>
 <wire x1="60.96" y1="152.4" x2="60.96" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="50.8" y1="149.86" x2="55.88" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="149.86" x2="55.88" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="149.86" x2="55.88" y2="149.86" width="0.1524" layer="91"/>
 <junction x="55.88" y="149.86"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="SUPPLY4" gate="G$1" pin="12V"/>
 <wire x1="45.72" y1="116.84" x2="45.72" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="SUPPLY2" gate="G$1" pin="12V"/>
 <wire x1="96.52" y1="93.98" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="/RES"/>
+<pinref part="IC1" gate="G$1" pin="/RES"/>
 <wire x1="81.28" y1="109.22" x2="83.82" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="109.22" x2="83.82" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="VCC+"/>
+<pinref part="IC1" gate="G$1" pin="VCC+"/>
 <wire x1="83.82" y1="111.76" x2="81.28" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="12V"/>
 <wire x1="83.82" y1="114.3" x2="83.82" y2="111.76" width="0.1524" layer="91"/>
@@ -1797,7 +1797,7 @@ Production Part - 8199
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 </net>
