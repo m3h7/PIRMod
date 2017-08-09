@@ -1,5 +1,3 @@
-Umbau eines 230V Bewegungsmelders auf 24V
-=========================================
+# Umbau von 230V Bewegungsmeldern auf 24V
 
-Die Dokumentation befindet sich auf 
-https://mahiso.de/hausautomation/umbau_bewegungsmelder_24_volt
+- [Steinel IS1](seinel_is1/README.md) (veraltet)
