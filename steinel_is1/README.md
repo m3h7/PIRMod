@@ -8,7 +8,7 @@ Ziel ist, einen preislich günstigen Bewegungsmelder für 230V Netzspannung auf 
 
 Für den hier beschriebenen Umbau wird ein Steinel IS1 verwendet.
 
-> **Inzwischen hat Steinel das Layout der Schaltung verwendet. Die 50Hz Wechselspannung werden zum Triggern verwendet.
+> **Inzwischen hat Steinel das Layout der Schaltung verändert. Die 50Hz Wechselspannung werden zum Triggern verwendet.
 Damit ist der Umbau, wie hier beschrieben, nicht mehr so ohne weiteres möglich. Informationen dazu im
 [HomeMatic Forum](http://homematic-forum.de/forum/viewtopic.php?f=31&t=11754&start=20).**
 
